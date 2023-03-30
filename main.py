@@ -40,6 +40,7 @@ print(clf.predict(new_point))
 ## setup graph
 ax = plt.subplot()
 ax.grid(True, color="#323232")
+ax.set_facecolor("black")
 ax.figure.set_facecolor("#121212")
 ax.tick_params(axis="x", color="white")
 ax.tick_params(axis="y", color="white")
